@@ -1,12 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Category from './Category';
-import reportWebVitals from './reportWebVitals';
+import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-ReactDOM.render(
-  <Category />,
-  document.getElementById('root')
-);
-
-reportWebVitals();
+ReactDOM.render(<App />, document.getElementById('root'));
